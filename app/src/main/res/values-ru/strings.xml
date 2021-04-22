@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="points">Поинты</string>
+    <string name="keep_clicking_to_see_your_achievements">Жми, чтобы получить достижения</string>
+    <string name="newbie">Новичок</string>
+    <string name="expert">Эксперт</string>
+    <string name="master">Профи</string>
+    <string name="grand_master">Великий мастер</string>
+    <string name="legend">Магистр</string>
+    <string name="start">начать</string>
+    <string name="set_the_game_duration">Установить длительность игры</string>
+    <string name="restart">перезапустить</string>
+    <string name="info">Информация</string>
+    <string name="play">Играть</string>
+    <string name="message_about_null_settings">Пожалуйста, заполните все поля</string>
+    <string name="field_is_empty">Заполните это поле</string>
+    <string name="dialog_title">\"Ты закончил игру с \"</string>
+    <string name="points_for">\" поинтами за \"</string>
+    <string name="seconds">\" секунд\"</string>
+    <string name="info_about_app">Это приложение разработал очень талантливым и перспективным разработчиком. Зацените его <a href="https://github.com/constzz"> GitHub </a></string>
+    <string name="customize_and_play_game">Настрой и играй</string>
+    <string name="duration_in_seconds">Длительность (в секундах)</string>
+    <string name="set_the_maximum_points_number">Установи максимальное значение игровых поинтов</string>
+    <string name="maximum_points_number">Максимальное количество очков</string>
+    <string name="exit">Exit</string>
+    <string name="dialog_message">Do you want to try again?</string>
+</resources>

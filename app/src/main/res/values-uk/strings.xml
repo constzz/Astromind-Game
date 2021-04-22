@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="legend">Легенда</string>
+    <string name="grand_master">Великий майcтер</string>
+    <string name="master">Профі</string>
+    <string name="expert">Експерт</string>
+    <string name="newbie">Новачок</string>
+    <string name="keep_clicking_to_see_your_achievements">Жмакай, щоб отрмати нагороди</string>
+    <string name="points">Поїнти</string>
+    <string name="start">почати</string>
+    <string name="set_the_game_duration">Встановити тривалість гри</string>
+    <string name="restart">перезапустити</string>
+    <string name="info">Інформація</string>
+    <string name="message_about_null_settings">Будь-ласка, заповніть усі поля</string>
+    <string name="field_is_empty">Заповніть це поле</string>
+    <string name="dialog_title">\"Ти закінчив гру з \"</string>
+    <string name="points_for">\" поїнтами за \"</string>
+    <string name="seconds">\" секунд\"</string>
+    <string name="info_about_app">Цей додаток був розроблений дуже талановитим та перспективним розробником. Зацініть його <a href="https://github.com/constzz"> GitHub </a></string>
+    <string name="customize_and_play_game">Налаштуй та грай</string>
+    <string name="duration_in_seconds">Тривалість (у секундах)</string>
+    <string name="set_the_maximum_points_number">Встанови максимальне значення ігрових поїнтів</string>
+    <string name="maximum_points_number">Максимальна кількість поїнтів</string>
+    <string name="play">Грати</string>
+    <string name="exit">Exit</string>
+    <string name="dialog_message">Do you want to try again?</string>
+</resources>

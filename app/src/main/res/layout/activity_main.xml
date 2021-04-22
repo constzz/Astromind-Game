@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    tools:context=".ui.GameActivity"
+    style="@style/Theme.MaterialComponents">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/space_background"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="45dp">
+
+            <TextView
+                android:id="@+id/player_stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                tools:text="Stats: 1000 points" />
+
+            <ProgressBar
+                android:id="@+id/gameProgressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:indeterminateTint="@android:color/holo_red_dark"
+                android:max="300"
+                android:progress="10"
+                android:progressTint="#F44336" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/achievmentsCG"
+                style="@style/Widget.MaterialComponents.ChipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/placeholder_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/keep_clicking_to_see_your_achievements"
+                    app:chipBackgroundColor="@color/material_on_background_disabled" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/newbie_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/newbie"
+                    android:visibility="gone" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/expert_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/expert"
+                    android:visibility="gone" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/master_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/master"
+                    android:visibility="gone" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/grandmaster_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grand_master"
+                    android:visibility="gone" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/legend_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/legend"
+                    android:visibility="gone" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/space_ship"
+            android:layout_width="200dp"
+            android:layout_height="400dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/space_ship" />
+
+        <TextView
+            android:id="@+id/timerTV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="start|bottom"
+            android:layout_marginBottom="70dp"
+            android:fontFamily="casual"
+            android:rotation="270"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:typeface="normal"
+            tools:text="59" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

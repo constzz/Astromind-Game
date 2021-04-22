@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name" translatable="false">Astromind</string>
+
+    //Info activity
+    <string name="info_about_app">This app was developed by a very talented and perspective developer. Check out his <a href="https://github.com/constzz">GitHub</a></string>
+
+    //Game setup activity
+    <string name="customize_and_play_game">Customise and play</string>
+    <string name="set_the_game_duration">Set the game duration</string>
+    <string name="duration_in_seconds">Duration (in seconds)</string>
+    <string name="set_the_maximum_points_number">Set the maximum point number</string>
+    <string name="maximum_points_number">Maximum points number</string>
+    <string name="info">Info</string>
+
+    //Game activity
+    <string name="points">Points</string>
+    <string name="keep_clicking_to_see_your_achievements">Keep clicking to see your achievements!</string>
+    <string name="newbie">Newbie</string>
+    <string name="expert">Expert</string>
+    <string name="master">Master</string>
+    <string name="grand_master">Grand master</string>
+    <string name="legend">Legend</string>
+    <string name="start">start</string>
+
+    //Game finished dialog activity
+    <string name="restart">restart</string>
+    <string name="message_about_null_settings">Please set the values for settings</string>
+    <string name="field_is_empty">This field should be filled</string>
+    <string name="dialog_title">You finished with </string>
+    <string name="points_for"> points for </string>
+    <string name="seconds"> seconds</string>
+    <string name="play">play</string>
+    <string name="exit">Exit</string>
+    <string name="dialog_message">Do you want to try again?</string>
+
+</resources>
